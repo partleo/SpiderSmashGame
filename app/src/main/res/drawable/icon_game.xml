@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/spider"
+            android:tint="@color/colorApp" >
+        </bitmap>
+    </item>
+    <item>
+        <shape>
+            <size
+                android:height="48dp"
+                android:width="48dp"/>
+        </shape>
+    </item>
+
+</layer-list>

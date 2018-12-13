@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Spider Smash Game</string>
+    <string name="menu">Menu</string>
+    <string name="play_game">Play Game</string>
+    <string name="high_scores">Your High Scores</string>
+    <string name="start_game">Start</string>
+    <string name="continue_game">Continue</string>
+    <string name="end_game">Return</string>
+    <string name="info_text">Recognize a surface to find bugs and squish them as fast as you can by tapping them. Combos will give you double points.</string>
+    <string name="head_line">Find a bug and squish it</string>
+    <string name="high_score_text">High score:</string>
+    <string name="leave_game">Do you want to leave the game?</string>
+    <string name="top_ten">Your top 10</string>
+    <string name="progress_bar">Finish your steps to play</string>
+    <string name="progress_bar_full">Start game from the menu</string>
+    <string name="choose_steps">Choose amount of steps</string>
+
+    <string name="open_bottom_menu">open bottom menu</string>
+    <string name="close_bottom_menu">close bottom menu</string>
+
+
+
+    <string name="bottom_sheet_peek">text</string>
+    <string name="bottom_sheet_content">more text</string>
+</resources>

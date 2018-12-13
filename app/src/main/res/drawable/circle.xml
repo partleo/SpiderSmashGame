@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="2.65"
+    android:shape="ring"
+    android:thicknessRatio="13.0" >
+    <gradient
+        android:centerX="0.7"
+        android:endColor="@color/colorCircleEnd"
+        android:centerColor="@color/colorCircleCenter"
+        android:startColor="@color/colorCircleStart"
+        android:type="sweep" />
+</shape-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape
+            android:shape="oval">
+            <gradient
+                android:startColor="@color/colorWhite"
+                android:centerColor="@color/colorGreyLight"
+                android:endColor="@color/colorGrey"
+                android:centerX="0.7"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+
+    <!--item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="#234"
+                    android:centerColor="#234"
+                    android:centerY="0.75"
+                    android:endColor="#a24"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item-->
+
+    <item android:id="@android:id/progress">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:innerRadiusRatio="2.65"
+            android:shape="ring"
+            android:thicknessRatio="13.0" >
+            <gradient
+                android:centerX="0.7"
+                android:endColor="@color/colorCircleEnd"
+                android:centerColor="@color/colorCircleCenter"
+                android:startColor="@color/colorCircleStart"
+                android:type="sweep" />
+        </shape>
+    </item>
+
+</layer-list>
